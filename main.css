@@ -1,0 +1,922 @@
+::selection {
+  background: #fff;
+  color: #0f296d;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #dfdfdf;
+  border-radius: 2rem;
+  margin-block: 0.4rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0f296d;
+  border-radius: 2rem;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+button,
+input {
+  font-family: inherit;
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  appearance: button;
+}
+
+ul li {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover,
+a:focus,
+a:active,
+a:visited,
+a:link,
+a:target {
+  text-decoration: none;
+}
+
+picture,
+img {
+  display: block;
+  outline: none;
+  user-select: none;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font: normal 500 16px "Poppins", sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+  min-height: 100vh;
+  background: #e9ecf5;
+  padding: 1rem;
+}
+
+.left-side, .nav-footer-img, .nav-footer-img::after, .form-control, .tooltip, .bars, .bar {
+  transition: 0.3s ease-in-out;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+input[type="checkbox"], .openNavbar, .openSearchBox, .close-searchbox {
+  display: none;
+}
+
+#main, .charts-statistics,
+.revenue-inner {
+  display: grid;
+}
+
+.navbar, .navbar-brand a, .nav-link a, .navbar-footer, .header, .header-item, .statistics, .box, .tables-container, .status-boxes, .wod-box, .wod-box-child, .charts-title, .performance-info-container, .performance-info, .charts-shapes, .performance-percentage, .batches-link, .radical-charts, .selectbox, .perfomers-container, .perfomer-box, .bars {
+  display: flex;
+}
+
+.navbar, .navbar-footer, .wod-box-child, .performance-info-container, .charts-shapes, .perfomer-box, .bars {
+  flex-direction: column;
+}
+
+.header, .statistics, .box, .tables-container, .status-boxes, .wod-box, .charts-title, .performance-info-container, .charts-shapes, .batches-link, .perfomers-container, .bars {
+  justify-content: space-between;
+}
+
+.performance-percentage, .radical-charts, .perfomer-box, .openSearchBox, .close-searchbox {
+  justify-content: center;
+}
+
+.navbar, .navbar-brand a, .nav-link a, .navbar-footer, .header, .header-item, .statistics, .box, .wod-box, .wod-box-child, .charts-title, .performance-percentage, .batches-link, .radical-charts, .selectbox, .perfomers-container, .perfomer-box, .bars, .openSearchBox, .close-searchbox {
+  align-items: center;
+}
+
+.tables-container, .charts-statistics,
+.revenue-inner {
+  gap: 24px;
+  grid-gap: 24px;
+}
+
+.box, .status-boxes-child, .perfomer-box {
+  flex: 0 0 calc(33.3333% - 12px);
+  max-width: calc(33.3333% - 12px);
+}
+
+.table-child {
+  flex: 0 0 calc(50% - 12px);
+  max-width: calc(50% - 12px);
+}
+
+.nav-footer-img::after, .link-selector .right::before,
+.link-selector .left::before, .radical-charts {
+  border-radius: 50%;
+}
+
+.left-side, .link-selector {
+  border-radius: 30px 0 0 30px;
+}
+
+#app, .navbar-footer, .box, .icon-container, .table-child {
+  border-radius: 25px;
+}
+
+.form-control input, .status-boxes-child, .wod-box, .batches, .selectbox, .bars, .openSearchBox, .close-searchbox {
+  border-radius: 8px;
+}
+
+.box {
+  box-shadow: 0px 3px 50px rgba(0, 0, 0, 0.15);
+}
+
+.box, .table-child, .tooltip {
+  box-shadow: 0px 7.56px 47.88px rgba(0, 0, 0, 0.04);
+}
+
+.batches, .perfomer-box {
+  padding: 1rem;
+}
+
+.navbar {
+  padding-top: 1rem;
+}
+
+.navbar-links, .nav-link a, .navbar-footer, .nav-footer-img, .form-control, .table-child, .charts-shapes, .radical-charts, .perfomer-box {
+  position: relative;
+}
+
+.nav-footer, .navbar-footer button, .nav-footer-img::after, .link-selector, .link-selector .right,
+.link-selector .left, .link-selector .right::before,
+.link-selector .left::before, .mignifier, .three_D_charts-container, .chart, .charts-inner, .tooltip, .tooltip::after, .tooltip::before, .batches, .radical-chart, .dumbbell-icon, .close-searchbox {
+  position: absolute;
+}
+
+#app, .link-selector {
+  background: #f3f5fb;
+}
+
+.navbar-footer, .header, .box, .table-child, .batches, .bar {
+  background: #fff;
+}
+
+.status-boxes-child, .wod-box {
+  background: #f9f9f9;
+}
+
+.horizontal-line, .line {
+  background: #e5e5e5;
+}
+
+.left-side, .link-selector .right::before,
+.link-selector .left::before, .darkcolor, .bars, .openSearchBox, .close-searchbox {
+  background: #0f296d;
+}
+
+.orange, #openMenu:checked + #openMenuCheckbox > .bars {
+  background: #f1554c;
+}
+
+.pink {
+  background: #fea5a0;
+}
+
+.wlc-msg h1, .status-boxes-child h1, .wod-box-child h1, .charts-title h1, .performance-info-name span, .batches h1 {
+  color: #0f296d;
+}
+
+.navbar-footer, .status-boxes-child p, .charts-title h1, .performance-info-name h3, .batches p, .radical-charts h1, .selectbox {
+  color: #393d54;
+}
+
+.status-boxes-child h1, .batches h1 {
+  font-size: 2rem;
+}
+
+.wlc-msg h1, .today-status h3, .wod-box h2, .charts-title h1, .performance-info-name h3, .radical-charts h1 {
+  font-size: 1.6rem;
+}
+
+.nav-link a, .tooltip {
+  font-size: 1.5rem;
+}
+
+.statistics-number p, .charts-title h2, .perfomer-button a {
+  font-size: 1.4rem;
+}
+
+.status-boxes-child p, .wod-box-child p, .performance-info-name p, .performance-percentage p, .batches-link, .selectbox span {
+  font-size: 1.2rem;
+}
+
+.batches p, .perfomer-info p,
+.perfomer-status p {
+  font-size: 1.1rem;
+}
+
+.perfomer-info h3,
+.perfomer-status h3, .perfomer-button a {
+  font-weight: bold;
+}
+
+.statistics-number h2, .wod-box-child h1, .batches h1, .perfomer-info h3,
+.perfomer-status h3 {
+  font-weight: 800;
+}
+
+.status-boxes-child p, .today-status h3, .wod-box h2, .wod-box-child p, .charts-title h1, .batches p, .batches-link, .radical-charts h1 {
+  font-weight: 600;
+}
+
+.charts-title h2, .performance-info-name h3, .performance-info-name p, .performance-percentage p, .selectbox span, .perfomer-info p,
+.perfomer-status p {
+  font-weight: 500;
+}
+
+.selectbox, .bars, .openSearchBox {
+  cursor: pointer;
+}
+
+.status-boxes-child, .radical-charts h1, .perfomer-box {
+  text-align: center;
+}
+
+#app {
+  padding: 0.5rem;
+}
+
+#main {
+  grid-template-columns: auto auto;
+  column-gap: 20px;
+  max-width: 1340px;
+}
+
+.left-side {
+  width: 250px;
+  position: sticky;
+  top: 1px;
+  height: 80%;
+}
+
+.navbar-links {
+  z-index: 1;
+}
+
+.navbar-brand {
+  margin: 3rem auto 5rem;
+}
+
+.nav-link a img {
+  padding-right: 1rem;
+}
+
+.nav-link:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
+.nav-footer {
+  right: 60px;
+  bottom: 50px;
+}
+
+.navbar-footer {
+  padding: 1.5rem 1rem;
+}
+
+.navbar-footer button {
+  top: 10px;
+  right: 10px;
+}
+
+.navbar-footer span {
+  font-size: 1rem;
+}
+
+.nav-footer-img {
+  margin-bottom: 1rem;
+  right: 15%;
+  top: 0;
+}
+
+.nav-footer-img::after {
+  transition-delay: 0.1s;
+  content: "";
+  width: 50%;
+  height: 8px;
+  filter: blur(5px);
+  background: rgba(0, 0, 0, 0.2);
+  bottom: -5px;
+  right: calc(-15% + 25%);
+}
+
+.nav-footer-img:hover {
+  transform: translateY(-5px);
+}
+
+.nav-footer-img:hover::after {
+  background: transparent;
+}
+
+.active {
+  color: #0f296d !important;
+}
+
+.link-selector {
+  top: -12px;
+  left: -20px;
+  z-index: -1;
+  width: 200%;
+  height: 50px;
+}
+
+.link-selector .right,
+.link-selector .left {
+  right: 44px;
+  width: 25px;
+  height: 25px;
+  background: inherit;
+}
+
+.link-selector .right {
+  top: -10px;
+}
+
+.link-selector .left {
+  bottom: -10px;
+}
+
+.link-selector .right::before,
+.link-selector .left::before {
+  left: -11px;
+  content: "";
+  width: 30px;
+  height: 30px;
+}
+
+.link-selector .right::before {
+  bottom: 15px;
+}
+
+.link-selector .left::before {
+  bottom: -20px;
+}
+
+.right-side {
+  z-index: 2;
+}
+
+.header {
+  border-radius: 0 0 20px 20px;
+  padding: 1rem 3rem;
+}
+
+.searchBoxLabel {
+  margin-right: 2rem;
+}
+
+.header-item-child + .header-item-child {
+  margin-left: 3rem;
+}
+
+.form-control input {
+  width: 300px;
+  border: 1px solid rgba(204, 204, 204, 0.75);
+  padding: 0.5rem 0.5rem 0.5rem 2.5rem;
+}
+
+.mignifier {
+  top: 10px;
+  left: 5px;
+}
+
+.statistics {
+  flex-wrap: wrap;
+  margin: 3rem auto;
+}
+
+.box {
+  padding: 3rem;
+}
+
+.icon-container {
+  background: linear-gradient(-45deg, #1d48b5, #102a6d);
+  filter: drop-shadow(0px 4px 21px rgba(16, 42, 109, 0.3));
+  padding: 0 1.5rem;
+}
+
+.horizontal-line {
+  width: 1px;
+  height: 70px;
+}
+
+.statistics-number h2 {
+  font-size: 3rem;
+}
+
+.statistics-number p {
+  margin-top: -1rem;
+  color: #999;
+}
+
+.tables-container {
+  flex-wrap: wrap;
+}
+
+.table-child {
+  padding: 3rem 2rem;
+}
+
+.status-boxes-child {
+  padding: 2rem;
+  margin: 3rem 0;
+}
+
+.status-boxes-child h1 {
+  margin-bottom: 1rem;
+}
+
+.wod-box {
+  border-left: 20px solid #f1554c;
+  padding: 2rem;
+}
+
+.charts-title {
+  margin-bottom: 3rem;
+}
+
+.charts-title h2 {
+  color: #999;
+}
+
+.charts-statistics,
+.revenue-inner {
+  grid-template-columns: auto 100%;
+  height: 80%;
+  overflow: hidden;
+}
+
+.performance-shape-box {
+  border-radius: 4px;
+  width: 20px;
+  height: 20px;
+  margin: 0.6rem 1rem 0 0;
+}
+
+.performance-info-name p {
+  color: #bfbfbf;
+}
+
+.performance-percentage p {
+  color: #bfbfbf;
+  margin-right: 1rem;
+}
+
+.line {
+  width: 90%;
+  height: 2px;
+}
+
+.three_D_charts-container {
+  left: 70px;
+  top: 10px;
+  height: 100%;
+}
+
+.chart {
+  transform-style: preserve-3d;
+  perspective: 700px;
+  height: 100%;
+}
+
+.chart:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+.orange-clr .chart-top {
+  background: #eb160a;
+  top: -2%;
+}
+
+.orange-clr .chart-right {
+  background: #de4037;
+}
+
+.orange-clr .chart-left {
+  background: #f1554c;
+}
+
+.orange-clr .chart-right,
+.orange-clr .chart-left {
+  height: 90%;
+}
+
+.darkblue-clr {
+  left: 80px;
+}
+
+.darkblue-clr .chart-top {
+  background: #0f296d;
+  top: 46%;
+}
+
+.darkblue-clr .chart-right {
+  background: #0f296d;
+}
+
+.darkblue-clr .chart-left {
+  background: #1c45b0;
+}
+
+.darkblue-clr .chart-right,
+.darkblue-clr .chart-left {
+  height: 40%;
+}
+
+.pink-clr {
+  left: 160px;
+}
+
+.pink-clr .chart-top {
+  background: #ff675e;
+  top: 26%;
+}
+
+.pink-clr .chart-right {
+  background: #ff8982;
+}
+
+.pink-clr .chart-left {
+  background: #fea5a0;
+}
+
+.pink-clr .chart-right,
+.pink-clr .chart-left {
+  height: 60%;
+}
+
+.chart-top {
+  width: 23px;
+  height: 25px;
+  left: -1px;
+  transform: translateZ(20px) rotateX(45deg) rotateZ(45deg);
+}
+
+.chart-left {
+  transform: rotateY(-45deg);
+  left: -10px;
+}
+
+.chart-right {
+  transform: rotateY(45deg);
+  left: 7px;
+}
+
+.chart-right,
+.chart-left {
+  width: 25px;
+  bottom: 20px;
+}
+
+.tooltip {
+  z-index: 99;
+  color: #fff;
+  top: 20px;
+  left: -50px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 6px;
+  padding: 0.5rem;
+  transform: translateX(-50%) translateZ(100px);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.tooltip::after, .tooltip::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.8);
+  left: 50%;
+}
+
+.tooltip::after {
+  width: 3px;
+  height: 20px;
+  bottom: -20px;
+}
+
+.tooltip::before {
+  width: 75%;
+  height: 2px;
+  bottom: -60%;
+}
+
+.revenue-inner {
+  grid-template-columns: auto auto;
+}
+
+.revenue {
+  transform: rotate(-7deg);
+  top: -30px;
+  left: 25px;
+  z-index: 2;
+}
+
+.batches {
+  box-shadow: 0px 3px 26px rgba(0, 0, 0, 0.1);
+  z-index: 9;
+  bottom: 20px;
+  left: 53%;
+  transform: translateX(-50%);
+}
+
+.batches p {
+  margin-bottom: 0.5rem;
+}
+
+.batches-link {
+  color: #cfcfcf;
+}
+
+.batches-link span {
+  margin-right: 1rem;
+}
+
+.radical-charts {
+  width: 180px;
+  height: 180px;
+  right: -20px;
+}
+
+.radical-chart {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.chart-darkblue {
+  border: 30px solid #0f296d;
+  border-color: #0f296d transparent transparent transparent;
+}
+
+.chart-orange {
+  border: 40px solid #f1554c;
+  border-color: transparent #f1554c transparent transparent;
+}
+
+.chart-pink {
+  border: 25px solid #fea5a0;
+  border-color: transparent transparent transparent #fea5a0;
+}
+
+.chart-gray {
+  border: 15px solid #bfbfbf;
+  border-color: transparent transparent #bfbfbf transparent;
+}
+
+.selectbox {
+  border: 1px solid #c4c4c4;
+  padding: 0.2rem 1rem;
+}
+
+.selectbox img {
+  margin-left: 0.8rem;
+}
+
+.perfomer-box {
+  border-radius: 20px;
+  color: #fff;
+}
+
+.perfomer-img {
+  margin-bottom: 0.8rem;
+}
+
+.perfomer-info,
+.perfomer-status {
+  margin-bottom: 0.8rem;
+}
+
+.perfomer-button {
+  width: 100%;
+}
+
+.perfomer-button a {
+  display: block;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 0.8rem 0.4rem;
+}
+
+.dumbbell-icon {
+  top: 0;
+  right: 0;
+}
+
+#openMenu:checked + #openMenuCheckbox > .left-side {
+  width: 250px;
+  overflow: hidden;
+  z-index: 20;
+}
+
+#openMenu:checked + #openMenuCheckbox > .bars {
+  box-shadow: 0 0 12px #f1554c;
+}
+
+#openMenu:checked + #openMenuCheckbox > .bars .bar:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+#openMenu:checked + #openMenuCheckbox > .bars .bar:nth-child(2) {
+  transform: scale(0);
+}
+
+#openMenu:checked + #openMenuCheckbox > .bars .bar:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -10px);
+}
+
+#openSearch:checked + .searchBoxLabel > .form-control {
+  top: 10px;
+}
+
+.bars {
+  width: 45px;
+  height: 45px;
+  padding: 1.2rem 0;
+  position: sticky;
+  top: 10px;
+  z-index: 22;
+  display: none;
+}
+
+.bar {
+  width: 80%;
+  height: 2px;
+}
+
+.openNavbar {
+  writing-mode: vertical-lr;
+  position: sticky;
+  top: 150px;
+  left: 40px;
+}
+
+.openSearchBox {
+  width: 35px;
+  height: 35px;
+}
+
+.close-searchbox {
+  width: 30px;
+  height: 30px;
+  right: 0;
+  bottom: 1px;
+  color: #fff;
+}
+
+@media (max-width: 1250px) {
+  .table-child {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .revenue {
+    transform: rotate(0);
+    inset: 0;
+  }
+}
+
+@media (max-width: 1130px) {
+  .left-side {
+    position: fixed;
+    z-index: 20;
+    width: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+  .nav-footer {
+    display: none;
+  }
+  .bars {
+    display: flex;
+  }
+  .statistics .box {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .box:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+  .orange-clr .chart-top {
+    top: -8%;
+  }
+  .darkblue-clr .chart-top {
+    top: 38%;
+  }
+  .pink-clr .chart-top {
+    top: 20%;
+  }
+  .openNavbar {
+    display: block;
+  }
+}
+
+@media (max-width: 720px) {
+  #header {
+    position: relative;
+    justify-content: flex-end;
+  }
+  .wlc-msg {
+    display: none;
+  }
+  .form-control {
+    position: absolute;
+    left: 50%;
+    top: -100%;
+    transform: translateX(-50%);
+    width: 95%;
+  }
+  .form-control input {
+    width: 100%;
+  }
+  .openSearchBox,
+  .close-searchbox {
+    display: flex;
+  }
+}
+
+@media (max-width: 550px) {
+  .status-boxes,
+  .wod-box,
+  .perfomers-container {
+    flex-direction: column;
+  }
+  .status-boxes-child,
+  .perfomer-box {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .status-boxes-child {
+    margin: 1rem 0;
+  }
+  .wod-box {
+    margin-top: 1rem;
+  }
+  .charts-statistics,
+  .revenue-inner {
+    grid-template-columns: auto;
+    min-height: 100vh;
+  }
+  .performance-info-container {
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  .chart-top {
+    display: none;
+  }
+  .radical-charts {
+    right: 0;
+  }
+  .perfomers-container {
+    gap: 25px;
+  }
+  .perfomer-box {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */

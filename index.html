@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="icon" name="favicon" type="image/png" href="assest/icons/Vector.png">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Kids Fitness</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- app root element -->
+    <div id="app" role="main">
+        <!-- main container -->
+        <main id="main" class="container">
+            <!-- -------------------------------------------- -->
+            <input type="checkbox" id="openMenu" name="openMenu">
+            <label id="openMenuCheckbox" for="openMenu">
+                <div class="bars">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <p class="openNavbar">Click Here to Open Navigation bar</p>
+                <!-- app left side (navigation & menu )-->
+                <div class="left-side">
+                    <!-- navigation -->
+                    <nav class="navbar" role="navigation">
+                        <div class="navbar-brand">
+                            <a href="#" title="Kids Fitness">
+                                <img src="/assest/icons/Vector.png" alt="">
+                                <img src="/assest/icons/logo-text.png" alt="">
+                            </a>
+                        </div>
+
+                        <ul class="navbar-links">
+                            <div class="link-selector">
+                                <div class="left"></div>
+                                <div class="right"></div>
+                            </div>
+                            <li class="nav-link">
+                                <a href="#" class="active"><img src="/assest/icons/nav-icon-1.png" alt="">
+                                    <span>Dashboard</span> </a>
+                            </li>
+                            <li class="nav-link">
+                                <a href="#"><img src="/assest/icons/nav-icon-2.png" alt=""> <span>Attendance</span> </a>
+                            </li>
+                            <li class="nav-link">
+                                <a href="#"><img src="/assest/icons/nav-icon-3.png" alt=""> <span>Sessions</span> </a>
+                            </li>
+                            <li class="nav-link">
+                                <a href="#"><img src="/assest/icons/nav-icon-4.png" alt=""> <span>Coaches</span> </a>
+                            </li>
+                            <li class="nav-link">
+                                <a href="#"><img src="/assest/icons/nav-icon-5.png" alt=""> <span>Exercise Plan</span>
+                                </a>
+                            </li>
+                            <li class="nav-link">
+                                <a href="#"><img src="/assest/icons/nav-icon-6.png" alt=""> <span>Registrations</span>
+                                </a>
+                            </li>
+                            <li class="nav-link">
+                                <a href="#"><img src="/assest/icons/nav-icon-7.png" alt=""> <span>Settings</span> </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- navbar footer -->
+                    <div class="nav-footer">
+                        <a href="#" class="navbar-footer">
+                            <button role="button" id="view-ads" title="view ads">
+                                <img src="/assest/images/dots.png" alt="">
+                            </button>
+                            <div class="nav-footer-img">
+                                <img src="/assest/images/dumbbell.png" alt="ads">
+                            </div>
+                            <span>Schedule an event</span>
+                        </a>
+                    </div>
+                </div>
+            </label>
+            <!-- app right side (tables and columns) -->
+            <div class="right-side">
+                <!-- header -->
+                <header id="header" class="header" role="heading">
+                    <div class="header-item wlc-msg">
+                        <h1>Welcome to xfitkids</h1>
+                    </div>
+
+                    <div class="header-item">
+                        <input type="checkbox" id="openSearch" name="openSearch">
+                        <label class="searchBoxLabel" for="openSearch">
+                            <div class="openSearchBox" title="open search box">
+                                <img src="/assest/icons/mignifier.png" alt="">
+                            </div>
+                            <div class="form-control header-item-child">
+                                <div class="close-searchbox">
+                                    <div>X</div>
+                                </div>
+                                <form action="#" id="search-form" method="GET">
+                                    <img class="mignifier" src="/assest/icons/mignifier.png" alt="">
+                                    <input type="search" name="search" id="search" role="searchbox"
+                                        placeholder="Search">
+                                </form>
+                            </div>
+                        </label>
+
+                        <div class="zangole header-item-child">
+                            <a href="#">
+                                <img src="/assest/icons/zangole.png" alt="">
+                            </a>
+                        </div>
+
+                        <div class="person header-item-child">
+                            <a href="#">
+                                <img src="/assest/icons/person-icon.png" alt="">
+                            </a>
+                        </div>
+
+                        <div class="angle header-item-child">
+                            <a href="#">
+                                <img src="/assest/icons/angle-bottom-icon.png" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+                </header>
+
+                <!-- statistics section -->
+                <section class="statistics">
+                    <div class="box">
+                        <div class="icon-container">
+                            <img src="/assest/images/coachs.png" alt="">
+                        </div>
+                        <div class="horizontal-line"></div>
+                        <div class="statistics-number">
+                            <h2>534</h2>
+                            <p>Coaches</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="icon-container">
+                            <img src="/assest/images/kids.png" alt="">
+                        </div>
+                        <div class="horizontal-line"></div>
+                        <div class="statistics-number">
+                            <h2>9.7k</h2>
+                            <p>Kids</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="icon-container">
+                            <img src="/assest/images/revenue.png" alt="">
+                        </div>
+                        <div class="horizontal-line"></div>
+                        <div class="statistics-number">
+                            <h2>50 M</h2>
+                            <p>Revenue</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- panel tables -->
+                <section class="tables-container">
+
+                    <!-- status section -->
+                    <div class="table-child today-status">
+                        <h3>Today's Status</h3>
+                        <div class="status-boxes">
+                            <div class="status-boxes-child">
+                                <h1>8.7K</h1>
+                                <p>Total present</p>
+                            </div>
+                            <div class="status-boxes-child">
+                                <h1>99</h1>
+                                <p>Registrations</p>
+                            </div>
+                            <div class="status-boxes-child">
+                                <h1>30</h1>
+                                <p>Totals Session</p>
+                            </div>
+                        </div>
+
+                        <div class="wod-box">
+                            <h2>Todays'WOD</h2>
+                            <div class="wod-box-child">
+                                <h1>Filthy Fifty</h1>
+                                <p>Mecton</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- bars charts container -->
+                    <div class="table-child charts">
+                        <div class="charts-title">
+                            <h1>Batch Performance</h1>
+                            <h2>All information in percentage(%)</h2>
+                        </div>
+
+                        <div class="charts-statistics">
+                            <!-- chartss statistics styles -->
+                            <div class="performance-info-container">
+                                <div class="performance-info">
+                                    <div class="performance-shape-box orange"></div>
+                                    <div class="performance-info-name">
+                                        <h3>Jr.Knights</h3>
+                                        <p>Performance</p>
+                                    </div>
+                                </div>
+
+                                <div class="performance-info">
+                                    <div class="performance-shape-box darkcolor"></div>
+                                    <div class="performance-info-name">
+                                        <h3>Gladiators</h3>
+                                        <p>Performance</p>
+                                    </div>
+                                </div>
+
+                                <div class="performance-info">
+                                    <div class="performance-shape-box pink"></div>
+                                    <div class="performance-info-name">
+                                        <h3>Spartans</h3>
+                                        <p>Performance</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ////////////////////////////////////////////////////////////////// -->
+
+                            <!-- charts shapes styles -->
+                            <div class="charts-shapes">
+                                <!-- 3d charts bars -->
+                                <div class="three_D_charts-container">
+                                    <div class="chart orange-clr">
+                                        <li class="charts-inner chart-top"></li>
+                                        <li class="charts-inner chart-left">
+                                            <span class="tooltip">Jr.Knights</span>
+                                        </li>
+                                        <li class="charts-inner chart-right"></li>
+                                    </div>
+
+                                    <div class="chart darkblue-clr">
+                                        <li class="charts-inner chart-top">
+                                        </li>
+                                        <li class="charts-inner chart-left">
+                                            <span class="tooltip">Gladiators</span>
+                                        </li>
+                                        <li class="charts-inner chart-right"></li>
+                                    </div>
+
+                                    <div class="chart pink-clr">
+                                        <li class="charts-inner chart-top"></li>
+                                        <li class="charts-inner chart-left">
+                                            <span class="tooltip">Spartans</span>
+                                        </li>
+                                        <li class="charts-inner chart-right"></li>
+                                    </div>
+                                </div>
+
+                                <div class="performance-percentage">
+                                    <p>100</p>
+                                    <div class="line"></div>
+                                </div>
+
+                                <div class="performance-percentage">
+                                    <p>75</p>
+                                    <div class="line"></div>
+                                </div>
+
+                                <div class="performance-percentage">
+                                    <p>55</p>
+                                    <div class="line"></div>
+                                </div>
+
+                                <div class="performance-percentage">
+                                    <p>35</p>
+                                    <div class="line"></div>
+                                </div>
+
+                                <div class="performance-percentage">
+                                    <p>00</p>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- revenue and radical charts container -->
+                    <div class="table-child revenue">
+                        <div class="charts-title">
+                            <h1>Revenue Generated</h1>
+                        </div>
+
+                        <div class="batches">
+                            <h1>25M</h1>
+                            <p>Offline</p>
+                            <a href="#" title="view-batches" class="batches-link">
+                                <span>50 running batches</span> <img src="/assest/icons/angle-right.png" alt="">
+                            </a>
+                        </div>
+
+                        <div class="revenue-inner">
+
+                            <div class="performance-info-container">
+                                <div class="performance-info">
+                                    <div class="performance-shape-box orange"></div>
+                                    <div class="performance-info-name">
+                                        <h3>Online</h3>
+                                        <p><span>50%</span> of total revenue</p>
+                                    </div>
+                                </div>
+
+                                <div class="performance-info">
+                                    <div class="performance-shape-box darkcolor"></div>
+                                    <div class="performance-info-name">
+                                        <h3>Offline</h3>
+                                        <p><span>30%</span> of total revenue</p>
+                                    </div>
+                                </div>
+
+                                <div class="performance-info">
+                                    <div class="performance-shape-box pink"></div>
+                                    <div class="performance-info-name">
+                                        <h3>Events</h3>
+                                        <p><span>20%</span> of total revenue</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- radical chart -->
+                            <div class="radical-chart-container">
+                                <div class="radical-charts">
+                                    <h1>50M</h1>
+                                    <div class="radical-chart chart-darkblue"></div>
+                                    <div class="radical-chart chart-orange"></div>
+                                    <div class="radical-chart chart-pink"></div>
+                                    <div class="radical-chart chart-gray"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- perfomers section -->
+                    <div class="table-child perfomer">
+                        <div class="charts-title">
+                            <h1>Top Performer</h1>
+                            <div class="selectbox">
+                                <span>June</span> <i> - </i> <span>July</span> <img
+                                    src="/assest/icons/angle-bottom-gray.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="perfomers-container">
+                            <div class="perfomer-box orange">
+                                <div class="perfomer-img">
+                                    <img src="/assest/images/person1.png" alt="">
+                                </div>
+                                <div class="perfomer-info">
+                                    <h3>Nivaan</h3>
+                                    <p>Jr. Knights</p>
+                                </div>
+                                <div class="perfomer-status">
+                                    <h3>90%</h3>
+                                    <p>Attendance</p>
+                                </div>
+                                <div class="perfomer-button">
+                                    <a href="#">Blue Badge</a>
+                                </div>
+
+                                <div class="dumbbell-icon">
+                                    <img src="/assest/icons/dumbell.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="perfomer-box darkcolor">
+                                <div class="perfomer-img">
+                                    <img src="/assest/images/person2.png" alt="">
+                                </div>
+                                <div class="perfomer-info">
+                                    <h3>Navya</h3>
+                                    <p>Gladiators</p>
+                                </div>
+                                <div class="perfomer-status">
+                                    <h3>80%</h3>
+                                    <p>Attendance</p>
+                                </div>
+                                <div class="perfomer-button">
+                                    <a href="#">Pink Badge</a>
+                                </div>
+
+                                <div class="dumbbell-icon">
+                                    <img src="/assest/icons/dumbell.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="perfomer-box pink">
+                                <div class="perfomer-img">
+                                    <img src="/assest/images/person3.png" alt="">
+                                </div>
+                                <div class="perfomer-info">
+                                    <h3>Anugrah</h3>
+                                    <p>Spartans</p>
+                                </div>
+                                <div class="perfomer-status">
+                                    <h3>70%</h3>
+                                    <p>Attendance</p>
+                                </div>
+                                <div class="perfomer-button">
+                                    <a href="#">Orange Badge</a>
+                                </div>
+                                <div class="dumbbell-icon">
+                                    <img src="/assest/icons/dumbell.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
+<!-- End -->
+<!-- data ended 11:49 AM 6 Azar -->
